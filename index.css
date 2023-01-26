@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+header {
+    background-color:aliceblue;
+    background-image: url("burger.png");
+    background-position: right;
+    background-size: cover; 
+    width: 100%;
+    color: #FFF;
+    height: 167px;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+p {
+  margin: 0;  
+}
+
+.title {
+    padding: 46px 56px
+}
+
+.order-section {
+    text-align: center;
+}
+
+.modal {
+    font-family: Verdana;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 524px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+}
+
+.confirmation-msg {
+    background-color: #ECFDF5;
+    color: #065F46;
+    width: 500px;
+    height: 100px;
+    left: 50px;
+    top: 789px;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 28px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.food-inner {
+    display: flex;
+    align-items: center;
+    border-bottom: solid #D2D2D2 1px;
+    margin: 20px 40px;
+
+    
+}
+
+.food-emoji {
+    font-size: 70px;
+    padding: 20px;
+    float: left;
+}
+
+.food{
+    border-top: 1px solid lightgray;
+}
+
+.food-details {
+    padding: 20px 0;
+}
+
+.add-food {
+    margin-left: auto;
+}
+
+i {
+    font-size: 40px; 
+    padding: 30px;
+    cursor: pointer;
+}
+
+.order-inner {
+    font-size: 28px;
+}
+
+.food-added {
+    display:flex;
+    justify-content: space-between;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-name {
+    font-size: 28px;
+}
+
+.food-ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.container {
+    margin: 20px 40px;
+}
+
+.total-price {
+    font-size: 28px;
+}
+
+#remove-btn {
+    background-color: transparent;
+    color: #BBBBBB;
+    font-size: 12px;
+    border: none;
+}
+
+.food-price {
+    font-size: 20px;
+}
+
+.complete-btn {
+    font-family: Verdana;
+    font-weight: 700;
+    width: 100%;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    margin: 40px 0px;
+    height: 60px;  
+}
+
+input {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+#pay-btn {
+    outline: 10px solid red;
+    width: 100%;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    margin: 40px 0px;
+    height: 60px;  
+    font-weight: 700;
+}
+
+#info-form {
+    margin: 5px 30px;
+}
