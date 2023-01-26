@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Font Awesome CDN -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <!-- Google Font - Smythe -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+        <header>
+            <div class="title">
+                <h2>Jimmy’s Diner</h2>
+                <p>The best burgers and pizzas in town.</p>
+            </div>
+        </header>
+        <div class="menu-section" id="menu-section">
+                <!-- Food options go here -->
+        </div>
+        
+        <div class="order-section" id="order-section">
+            <!-- Order menu goes here -->
+        </div>
+        
+        <div class="modal hidden" id="modal">
+            <form id="info-form">
+                <h2>Enter card details</h2>
+                <input type="text" placeholder="Enter your name" id="full-name" name="full-name" required>
+                <br>
+                <input type="text" placeholder="Enter card number" id="card-number" name="card-number" required>
+                <br>
+                <input type="text" placeholder="Enter CVV" id="cvv" name="cvv" required>
+                <br>
+                <button id="pay-btn">Pay</button>
+            </form>
+        </div>
+        
+        <div class="confirmation-msg hidden" id="confirmation-msg">
+            <!-- thank you message goes here -->
+        </div>
+        
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
